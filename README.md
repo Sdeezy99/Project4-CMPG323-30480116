@@ -13,7 +13,7 @@ Before starting this project, ensure the following:
   - Download UiPath Studio Community Edition to your computer.
   - Access the web application for which you'll perform UI automation.
   - Retrieve the Excel file containing the test data.
-Implementation
+# Implementation
 We've provided a web application for students to use, which can be accessed at https://cmpg323-ecopowerlogistics.azurewebsites.net/. For this project, focus on adapting the UiPath solution for RPA testing.
 
 # Requirements
@@ -27,26 +27,28 @@ Project Progress
 
 Commit and push your solution to source control throughout the project.
 Iteratively update the GitHub project to demonstrate your progress.
-Project Setup
+
+## Project Setup
 
 Clone your GitHub repository.
 Install UiPath Studio.
 Create a new UiPath process named 'Connected Office Web Application – User Acceptance Testing'.
-User Acceptance Testing
+## User Acceptance Testing
 
 Read input data from an Excel file into a data table in UiPath.
 Ensure data is correctly processed within UiPath.
-UI Automation
+
+## UI Automation
 
 For each record in the data table, navigate to the web application's data entry page.
 Insert data from the record into the web application's fields.
 Submit the data to create a new record.
 Navigate to the page where the new record can be viewed.
-Record Results
+## Record Results
 
 Update the data table to indicate whether testing passed or failed.
 Update the Excel spreadsheet with the testing results.
-Project Close-out
+## Project Close-out
 
 Deploy the UiPath solution.
 Explain in the README.md how to use the report.
